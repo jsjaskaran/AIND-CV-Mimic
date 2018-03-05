@@ -150,7 +150,7 @@ function drawFeaturePoints(canvas, img, face) {
   // See: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#Fill_and_stroke_styles
   // <your code here>
   ctx.fillStyle = 'blue'
-  ctx.strokeStyle = 'black'
+  ctx.strokeStyle = 'white'
   
   // Loop over each feature point in the face
   for (var id in face.featurePoints) {
@@ -172,7 +172,7 @@ function drawEmoji(canvas, img, face) {
 
   // TODO: Set the font and style you want for the emoji
   // <your code here>
-  ctx.font = '50px serif';
+  ctx.font = '75px serif';
   
   // TODO: Draw it using ctx.strokeText() or fillText()
   // See: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillText
